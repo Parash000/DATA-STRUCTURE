@@ -54,10 +54,10 @@ int main() {
         scanf("%d", &choice);
         switch (choice) {
             case 1:
-                insert();
+                enqueue();
                 break;
             case 2:
-                delete();
+                dequeue();
                 break;
             case 3: 
                 display();
